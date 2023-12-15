@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#barra {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    border: 1px black solid;
+    height: 10%;
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.clica {
+    color: black;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.clica:hover {
+    font-size: 20px;
+    text-decoration-line: underline;
+}
+
+#big {
+    display: flex;
+    border: 1px black solid;
+    width: auto;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#baixo {
+    height: 90%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#table {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 70%;
+    height: 65%;
+}
+
+#loga {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px black solid;
+    width: 40%;
+    height: 80%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
