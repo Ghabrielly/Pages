@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+
+*{
+    font-family: monospace ;
+}
+
+p {
+    font-size: large;
+}
+
+body {
+    height: auto;
+    margin: 0;
+}
+
+#inicial {
+    height: 400px;
+    display: flex;
+    border: 1px black solid;
+   align-items: center;
+   flex-direction: column;
+   justify-content: space-evenly;
+   padding-bottom: 25px;
+}
+
+#inicial h1 {
+    color: burlywood;
+    font-family: Rubik Scribble;
+}
+
+#txtbut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#segunda {
+    height: 350px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 246, 234);
+    border: 1px black solid;
+}
+
+#segunda button {
+    margin-top: 10px;
+}
+
+#um {
+    width: 60%;
+    height: 55%;
+    display: flex;
+    align-items: center;
+
+}
+
+#imagem {
+    height: 130%;
+    width: 120%;
+    border-radius: 50%;
+    filter: drop-shadow(10px 10px  #ffcaa1b7);
+    object-fit: scale-down;
+}
+
+button {
+    height: 45px;
+    width: 300px;
+    background-color: transparent;
+    border: 3px burlywood solid;
+    border-style: double;
+    color: burlywood;
+    cursor: pointer;
+    font-size: medium;
+}
+
+button:hover {
+    background-color: burlywood;
+    color: rgb(255, 255, 255);
+    box-shadow: inset 4px 4px rgb(191, 155, 109);
+    font-size: large;
+}
+
+h2 {
+    color: burlywood;
+    font-family: Rubik Scribble;
+}
+
+#dois {
+    display: flex;
+    height: 450px;
+    width: auto;
+    background-image: url(dogscats.jpg);
+    background-color: rgb(0, 0, 0);
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-attachment: fixed;
+}
+
+#terceira {
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    height: 400px;
+    background-color: rgb(255, 246, 234);
+    align-items: center;
+}
+
+#final {
+    border: 1px black solid;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: large;
+}
+
+#cato {
+    width: auto;
+    height: 55%;
+}
+
+#im {
+    height: 100%;
+    width: 100%;
+    filter: drop-shadow(10px 10px  #ffcaa1b7);
+    object-fit: scale-down;
+}
+
+.txt {
+    width: 70%;
+    text-align: center;
+    overflow: auto;
+    height: 25%;
+}
